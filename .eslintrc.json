@@ -1,0 +1,15 @@
+{
+  "plugins": [],
+  "extends": [
+    "eslint-config-airbnb-base"
+  ],
+  "rules": {
+    "no-var": "error",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "import-extensions": "always"
+  }
+}

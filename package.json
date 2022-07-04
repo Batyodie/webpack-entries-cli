@@ -1,0 +1,32 @@
+{
+  "name": "webpack-entries-cli",
+  "version": "0.0.1",
+  "description": "webpack entries cli",
+  "main": "./lib/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./webpack.config.js",
+    "dev": "nodemon ./lib/main.js localhost 8080"
+  },
+  "keywords": [
+    "webpack",
+    "entry",
+    "cli"
+  ],
+  "author": "Simens[gr.s.joe@gmail.com]",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.18",
+    "npm": "7.24.2",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "camelcase": "^7.0.0",
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "shelljs": "^0.8.5"
+  }
+}
