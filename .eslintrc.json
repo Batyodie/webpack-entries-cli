@@ -10,6 +10,14 @@
     "semi": ["error", "always"],
     "no-console": 1,
     "no-unused-vars": 1,
-    "import-extensions": "always"
+    "func-names": "off",
+    "no-restricted-syntax": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "alwais"
+      }
+    ]
   }
 }
